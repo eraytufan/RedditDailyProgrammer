@@ -6,5 +6,6 @@ def letterSum(word):
     return sum
 
 def test():
-    assert(letterSum("microspectrophotometries") == 317)
+    assert letterSum("microspectrophotometries") == 317
 
+test()
